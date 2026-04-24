@@ -1,3 +1,4 @@
 allowBuilds:
   gifsicle: true
 blockExoticSubdeps: false
+enableGlobalVirtualStore: true
