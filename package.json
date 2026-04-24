@@ -1,24 +1,21 @@
 {
   "name": "aube-exotic-bug",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.33.0",
   "dependencies": {
-    "xml2json": "^0.12.0"
+    "@types/imagemin-gifsicle": "^7.0.4",
+    "imagemin": "^9.0.1",
+    "imagemin-gifsicle": "github:PruvoNet/imagemin-gifsicle#54ba55c0f186d9a816402fa828c15add4f182542"
   },
+  "author": "",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "packageManager": "pnpm@10.33.0",
+  "type": "module",
   "pnpm": {
     "onlyBuiltDependencies": [
-      "node-expat"
-    ],
-    "overrides": {
-      "node-expat@2.4.1": "github:PruvoNet/node-expat#0732e16b0b679da2d12e062f78b3a511f419bb65"
-    }
+      "gifsicle"
+    ]
   }
 }
