@@ -1,0 +1,14 @@
+{
+  "name": "aube-exotic-bug",
+  "version": "1.0.0",
+  "dependencies": {
+    "express-fork": "npm:express@^4.22.1"
+  },
+  "author": "",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "packageManager": "pnpm@10.33.0",
+  "type": "module"
+}
